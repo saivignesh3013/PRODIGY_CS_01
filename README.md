@@ -1,4 +1,3 @@
-# ProdigyInfoTech_CyberSecurity_Internship
 Caesar Cipher Tool
 
 This Python script implements a Caesar Cipher for encrypting and decrypting messages. It includes additional functionalities to enhance the user experience and improve message security.
