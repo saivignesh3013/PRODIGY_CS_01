@@ -1,22 +1,34 @@
 # ProdigyInfoTech_CyberSecurity_Internship
-This folder contains the code for various tasks completed during my cybersecurity internship at Prodigy InfoTech. Each subfolder represents a separate task with its own functionalities.
+Caesar Cipher Tool
 
-Disclaimer:
+This Python script implements a Caesar Cipher for encrypting and decrypting messages. It includes additional functionalities to enhance the user experience and improve message security.
 
-The provided code snippets are for educational purposes only and may not reflect the final production-ready versions.
-Some functionalities may be intentionally omitted for security reasons.
-Folder Structure:
+Features:
 
-(Replace with specific folder names for each task)
-Task 1 - Caesar Cipher Tool
-caesar_cipher.py (Code for the Caesar Cipher Tool)
-Learning Outcomes:
+Encryption and decryption of messages using a Caesar Cipher with a shift value.
+Input validation for both message and shift value.
+Message analysis to help identify potential errors (e.g., presence of special characters).
+Hidden message input for improved security (uses getpass).
+How to Use:
 
-This internship provided valuable hands-on experience in implementing essential cybersecurity principles.
-The tasks involved working with Python to develop tools for encryption and decryption, security analysis, and potentially other areas of cybersecurity (depending on your specific tasks).
-Future Development:
+Save the script as caesar_cipher.py.
+Run the script from the command line using python caesar_cipher.py.
+Follow the prompts to choose an action (e for encryption, d for decryption, or q to quit).
+If encrypting or decrypting, enter the message and shift value as prompted.
+Example Usage:
 
-The code can be further enhanced to include error handling, improved user interface options, and integration with additional functionalities relevant to cybersecurity.
+Do you want to encrypt or decrypt a message? Input 'e' for encryption, 'd' for decryption, or 'q' to quit: e
+Enter the message (invisible, type carefully): This is a secret message.
+Enter the shift value (invisible, type carefully): 3
+
+Encrypted Message: Wkh lv d uhvhg rq wkh lqvwuxfwlrq.
+Further Development:
+
+You can extend this tool to handle different Caesar Cipher variations (e.g., handling punctuation, multiple alphabets).
+Implement error handling for invalid user input.
+Create a graphical user interface (GUI) for a more user-friendly experience.
 Created by: Erramsetti Sai Vignesh
+
+Note:
 
 This is a basic implementation of a Caesar Cipher and may not be secure for real-world cryptography.
